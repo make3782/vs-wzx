@@ -19,7 +19,7 @@
 
     {
         "key": "alt+enter",
-        "command": "wzx jump out"
+        "command": "extension.wzx.jumpOut"
     }
 
 或者直接通过F1命令执行 ``wzx jump out``
