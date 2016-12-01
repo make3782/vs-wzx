@@ -11,13 +11,17 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.wzx.jumpOut"
+        "onCommand:extension.wzx.jumpOut",
+        "onCommand:extension.wzx.centerLine"
     ],
     "main": "./out/src/extension",
     "contributes": {
         "commands": [{
             "command": "extension.wzx.jumpOut",
             "title": "wzx jump out"
+        }, {
+            "command": "extension.wzx.centerLine",
+            "title": "wzx center line"
         }]
     },
     "scripts": {

@@ -11,7 +11,15 @@
     ![](https://media.giphy.com/media/l0HlFPNndZgxEHV6w/source.gif)
 
 
+- `wzx center line`
 
+    当前所在行屏幕居中，再次执行则居顶 - 居底 - 居中循环， 类emacs的 ctrl+l
+    {
+        "key": "alt+enter",
+        "command": "extension.wzx.centerLine "
+    }
+
+    或者直接通过F1命令执行 ``wzx center line``
 
 ## Commands
 
