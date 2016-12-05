@@ -50,6 +50,11 @@ export function activate(context: vscode.ExtensionContext) {
         const doc = vscode.window.activeTextEditor;
         const selection = doc.selection;
         const range = new vscode.Range(selection.start, selection.end);
+        // 每次编辑后需要重新置为center
+        vscode.window.onDidChangeActiveTextEditor(() => {
+            scrollPosition = Scroll.Center;
+        })
+
         if (scrollPosition === Scroll.Top) {
             let promises = [
                 vscode.commands.executeCommand("scrollPageDown"),

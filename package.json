@@ -2,7 +2,7 @@
     "name": "vs-wzx",
     "displayName": "vs_wzx",
     "description": "个人写的插件，用于vscode的一些便捷操作",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "wzx",
     "engines": {
         "vscode": "^1.5.0"
